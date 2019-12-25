@@ -2,7 +2,7 @@ var app = require('./server-config.js');
 // const dotenv = require('dotenv');
 // dotenv.config();
 
-var port = process.env.PORT;
+var port = undefined;
 
 app.listen(port);
 
