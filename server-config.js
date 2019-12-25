@@ -34,7 +34,6 @@ app.get('/logout', handler.logoutUser);
 
 app.get('/signup', handler.signupUserForm);
 app.post('/signup', handler.signupUser);
-app.get('/env' , (req,res) => status(200).send({1: process.env,2: System.getenv("PORT")}))
 
 app.get('/*', handler.navToLink);
 
