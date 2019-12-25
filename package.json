@@ -35,13 +35,14 @@
     "grunt-mocha-test": "^0.12.7",
     "grunt-nodemon": "^0.4.1",
     "grunt-shell": "^1.2.1",
-    "knex": "^0.10.0",
+    "knex": "^0.20.4",
     "mocha": "^2.4.5",
     "mongoose": "^4.4.10",
     "request": "^2.34.0",
     "sqlite3": "*"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "supertest": "^1.2.0"
   }
 }
