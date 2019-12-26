@@ -9,7 +9,8 @@ let linkSchema = mongoose.Schema({
   baseUrl: String,
   code: String,
   title: String,
-  visits: { type: Number, default: 0 }
+  visits: { type: Number, default: 0 },
+  user: String
 }) // All done
 
 
